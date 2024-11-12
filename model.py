@@ -112,5 +112,6 @@ class GPT2PPL:
             prev_end_loc = end_loc
             if end_loc == seq_len:
                 break
-        ppl = int(torch.exp(torch.stack(nlls).sum() / end_loc))
+        # ppl = int(torch.exp(torch.stack(nlls).sum() / end_loc))
+        ppl = torch.exp(torch.stack(nlls).sum() / end_loc)
         return ppl
