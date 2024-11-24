@@ -55,7 +55,7 @@ for file in in_files:
     N = len(df)
 
     start = 0
-    end = 2
+    end = N
 
     df_gzero = pd.DataFrame(columns=columns)
 

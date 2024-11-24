@@ -21,4 +21,4 @@ while True:
     contents.append(line)
 sentence = "\n".join(contents)
 
-model(sentence)
+results = model(sentence)
