@@ -35,7 +35,6 @@ df_gzero = pd.DataFrame(columns=columns)
 for i in range(start, end):
     print(i)
     source_index = df["source_index"].iloc[i]
-    id = df["id"].iloc[i]
     model = "reuters"
     text = df["text"].iloc[i]
     keys = {'Burstiness', 'Perplexity', 'Perplexity per line', 'label'}
