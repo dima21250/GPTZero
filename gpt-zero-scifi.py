@@ -8,7 +8,6 @@ from datetime import datetime
 
 # input_dir = Path("/Users/dima/Data/phd/main")
 in_dir = Path("/mnt/isgnas/home/dima/bigtwin-b/Code/annotune-generate-data")
-in_file = "llm-text-analysis-main-vader.jsonl"
 
 in_files = """
 synthetic-first-contact-plot-summaries-llama-3-2-1b-16f-20250213-225304.jsonl
